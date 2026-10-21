@@ -9,8 +9,11 @@ workflows:
       - name: Check project files
         script: |
           ls -la
+          ls -la gradle/wrapper
       - name: Build APK
         script: |
+          brew install gradle
+          gradle wrapper
           chmod +x gradlew
           ./gradlew assembleDebug
     artifacts:
