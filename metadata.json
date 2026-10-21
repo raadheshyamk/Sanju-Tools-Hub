@@ -1,0 +1,6 @@
+{
+  "name": "Sanju Tools Hub",
+  "description": "All-in-one utility tools suite featuring photo tools, QR & barcode generator/scanner, PDF utilities, rich notes, calculators, conversions, and daily productivity tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
